@@ -3,9 +3,10 @@ This is my branch of Alex Gorbatchev's [SyntaxHighlighter][project]. I have not 
 * [Blackboard theme][blackboard]
 * [Vimscript syntax][vimscript]
 
+These are a work in progress.
 
 [project]: http://alexgorbatchev.com/wiki/SyntaxHighlighter
 [brushes]: http://alexgorbatchev.com/wiki/SyntaxHighlighter:Brushes
 [themes]: http://alexgorbatchev.com/wiki/SyntaxHighlighter:Themes
-[blackboard]: http://github.com/nelstrom/SyntaxHighlighter/blob/master/styles/shThemeBlackboard.js
+[blackboard]: http://github.com/nelstrom/SyntaxHighlighter/blob/master/styles/shThemeBlackboard.css
 [vimscript]: http://github.com/nelstrom/SyntaxHighlighter/blob/master/scripts/shBrushVimscript.js
