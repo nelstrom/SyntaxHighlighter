@@ -188,7 +188,7 @@ SyntaxHighlighter.brushes.Vimscript = function()
 					'warn wfh wildchar wim winminheight wmh wrapscan ww altkeymap ' +
 					'arabic autowrite backupcopy bdir bin bomb bt cd ci ' +
 					'cinw co completefunc cp cscopetag csto debug dict dir ' +
-					'eb enc errorbells expandtab fdl fenc fileformat fml foldignore ' +
+					'eb enc errorbells expandtab noexpandtab fdl fenc fileformat fml foldignore ' +
 					'foldopen fs gfn grepprg guiheadroom helplang history hls imactivatekey ' +
 					'iminsert inde insertmode iskeyword keymodel laststatus lisp lpl magic ' +
 					'maxfuncdepth menuitems mm modifiable mousem mps number opendevice paste ' +
