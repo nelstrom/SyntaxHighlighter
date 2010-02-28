@@ -38,7 +38,7 @@ SyntaxHighlighter.brushes.Vimscript = function()
 					'hardcopy helpt helptags if is isearch ju jumps kee ' +
 					'keepmarks lan language lc lcd lefta leftabove lgetb lgetbuffer ' +
 					'lgrepa lgrepadd lla llast lmapc lmapclear lnf lnfile loc ' +
-					'lockmarks lpf lpfile lt ltag mak make menut menutranslate ' +
+					'lockmarks lpf lpfile ltag mak make menut menutranslate ' +
 					'mkvie mkview mzf mzfile next nu number opt options ' +
 					'perld perldo pp ppop Print promptr promptrepl ptj ptjump ' +
 					'ptp ptprevious pw pwd quit redi redir reg registers ' +
@@ -229,7 +229,7 @@ SyntaxHighlighter.brushes.Vimscript = function()
 	
 
 	SyntaxHighlighter.regexLib.singleLineVimscriptComments = /".*$/gm
-	SyntaxHighlighter.regexLib.keyMappings = /(\<|&lt;)\w[-\w]+(\>|&gt;)/ig
+	SyntaxHighlighter.regexLib.keyMappings = /(\<|&lt;)\w[-\w\[\]]+(\>|&gt;)/ig
 
 	this.regexList = [
 		{ regex: SyntaxHighlighter.regexLib.singleLineVimscriptComments,	css: 'comments' },		// one line comments
