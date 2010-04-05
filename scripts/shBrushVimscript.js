@@ -228,7 +228,7 @@ SyntaxHighlighter.brushes.Vimscript = function()
 	
 	
 
-	SyntaxHighlighter.regexLib.singleLineVimscriptComments = /".*$/gm
+	SyntaxHighlighter.regexLib.singleLineVimscriptComments = /^\s*".*$/gm
 	SyntaxHighlighter.regexLib.keyMappings = /(\<|&lt;)\w[-\w\[\]]+(\>|&gt;)/ig
 
 	this.regexList = [
