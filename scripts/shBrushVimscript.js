@@ -236,7 +236,6 @@ SyntaxHighlighter.brushes.Vimscript = function()
 		{ regex: SyntaxHighlighter.regexLib.keyMappings,	css: 'color3' },		// Vimscript key mappings (e.g. <CR> <C-S-[>)
 		{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,		css: 'string' },			// double quoted strings
 		{ regex: SyntaxHighlighter.regexLib.singleQuotedString,		css: 'string' },			// single quoted strings
-		{ regex: /\s*#.*/gm,										css: 'preprocessor' },		// preprocessor tags like #region and #endregion
 		{ regex: new RegExp(this.getKeywords(options), 'gm'),		css: 'keyword' },			// options
 		{ regex: new RegExp(this.getKeywords(vimMap), 'gm'),		css: 'keyword' },			// options
 		{ regex: new RegExp(this.getKeywords(vimUserAttrbCmplt), 'gm'),		css: 'keyword' },			// options
